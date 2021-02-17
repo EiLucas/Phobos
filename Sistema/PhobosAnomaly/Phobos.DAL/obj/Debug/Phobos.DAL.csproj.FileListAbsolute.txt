@@ -1,0 +1,5 @@
+C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DAL\bin\Debug\Phobos.DAL.dll
+C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DAL\bin\Debug\Phobos.DAL.pdb
+C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DAL\obj\Debug\Phobos.DAL.csprojAssemblyReference.cache
+C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DAL\obj\Debug\Phobos.DAL.dll
+C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DAL\obj\Debug\Phobos.DAL.pdb
