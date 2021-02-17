@@ -45,5 +45,15 @@
     <Compile Include="UsuarioBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Phobos.DAL\Phobos.DAL.csproj">
+      <Project>{b472aab0-fe0a-43e9-a308-7cddacae29c7}</Project>
+      <Name>Phobos.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Phobos.DTO\Phobos.DTO.csproj">
+      <Project>{50eaeb42-49ce-4bf1-8511-99495e3aa7f0}</Project>
+      <Name>Phobos.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

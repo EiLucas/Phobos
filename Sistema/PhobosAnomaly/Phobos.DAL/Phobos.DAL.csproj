@@ -46,7 +46,12 @@
     <Compile Include="UsuarioDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Phobos.DTO\Phobos.DTO.csproj">
+      <Project>{50eaeb42-49ce-4bf1-8511-99495e3aa7f0}</Project>
+      <Name>Phobos.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="ScriptBanco\SQLPhobos.sql" />
   </ItemGroup>

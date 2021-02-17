@@ -101,6 +101,16 @@
     <Folder Include="Imagens\" />
     <Folder Include="Pages\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Phobos.BLL\Phobos.BLL.csproj">
+      <Project>{5c5a47f9-79cd-47d7-861c-813a0f0186c7}</Project>
+      <Name>Phobos.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Phobos.DTO\Phobos.DTO.csproj">
+      <Project>{50eaeb42-49ce-4bf1-8511-99495e3aa7f0}</Project>
+      <Name>Phobos.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
