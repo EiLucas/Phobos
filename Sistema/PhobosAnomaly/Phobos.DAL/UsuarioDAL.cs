@@ -162,11 +162,15 @@ namespace Phobos.DAL
                 dr = cmd.ExecuteReader();
 
                 UsuarioDTO obj = null;//Ponteiro
-                while (dr.Read())
+                if (dr.Read())
                 {
                     obj = new UsuarioDTO();
+                    obj.IdUsuario = Convert.ToInt32(dr["IdUsuario"]);
                     obj.NomeUsuario = Convert.ToString(dr["NomeUsuario"]);
+                    obj.CpfUsuario = Convert.ToString(dr["CpfUsuario"]);
                     obj.SenhaUsuario = Convert.ToString(dr["SenhaUsuario"]);
+                    obj.DataNascUsuario = Convert.ToString(dr["DataNascUsuario"]);
+                    obj.DescricaoTipoUsuario = Convert.ToString(dr["TipoUsuario"]);
                 }
                 return obj;
             }

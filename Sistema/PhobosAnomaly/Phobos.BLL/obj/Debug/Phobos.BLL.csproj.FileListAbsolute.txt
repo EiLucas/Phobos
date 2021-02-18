@@ -3,3 +3,14 @@ C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.BLL\bin\Debug\Phob
 C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.csprojAssemblyReference.cache
 C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.dll
 C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.pdb
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\bin\Debug\Phobos.BLL.dll
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\bin\Debug\Phobos.BLL.pdb
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\bin\Debug\Phobos.DAL.dll
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\bin\Debug\Phobos.DTO.dll
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\bin\Debug\Phobos.DAL.pdb
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\bin\Debug\Phobos.DTO.pdb
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.csproj.CopyComplete
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.dll
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.BLL\obj\Debug\Phobos.BLL.pdb

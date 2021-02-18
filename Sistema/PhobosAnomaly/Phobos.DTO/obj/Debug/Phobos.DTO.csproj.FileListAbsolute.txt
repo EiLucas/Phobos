@@ -3,3 +3,9 @@ C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DTO\bin\Debug\Phob
 C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DTO\obj\Debug\Phobos.DTO.csprojAssemblyReference.cache
 C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DTO\obj\Debug\Phobos.DTO.dll
 C:\Users\lucas.aconceicao1\Desktop\Lucas\PhobosAnomaly\Phobos.DTO\obj\Debug\Phobos.DTO.pdb
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.DTO\bin\Debug\Phobos.DTO.dll
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.DTO\bin\Debug\Phobos.DTO.pdb
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.DTO\obj\Debug\Phobos.DTO.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.DTO\obj\Debug\Phobos.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.DTO\obj\Debug\Phobos.DTO.dll
+C:\Users\Lucas\Documents\GitHub\Phobos\Sistema\PhobosAnomaly\Phobos.DTO\obj\Debug\Phobos.DTO.pdb
