@@ -35,11 +35,11 @@ namespace Phobos.UI
                     {
                         case "1":
                             Session["Usuario"] = txtUsuario.Text.Trim();
-                            Response.Redirect("");
+                            Response.Redirect("/Pages/IndexAdm.aspx");
                             break;
                         case "2":
                             Session["Usuario"] = txtUsuario.Text.Trim();
-                            Response.Redirect("");
+                            Response.Redirect("/Pages/IndexUser.aspx");
                             break;
                     }
                 }

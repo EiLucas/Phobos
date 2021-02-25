@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="Phobos.UI.Default" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DefaultUser.master.cs" Inherits="Phobos.UI.DefaultUser" %>
 
 <!DOCTYPE html>
 
@@ -37,16 +37,6 @@
                     <asp:Image runat="server" ImageUrl="Imagens/ICONE.ico" Width="50" Height="50" />Phobos
                 </a>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="EditarUsuario.aspx">Editar</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dpm" data-toggle="dropdown">Cadastro</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Usuários</a>
-                            <a class="dropdown-item" href="#">Filmes</a>
-                        </div>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Consulta</a>
                     </li>

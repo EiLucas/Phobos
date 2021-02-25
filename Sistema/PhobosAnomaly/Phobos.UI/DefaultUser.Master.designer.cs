@@ -11,7 +11,7 @@ namespace Phobos.UI
 {
 
 
-    public partial class Default
+    public partial class DefaultUser
     {
 
         /// <summary>
