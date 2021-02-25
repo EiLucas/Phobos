@@ -15,7 +15,7 @@ namespace Phobos.UI
             {
                 Response.Redirect("~/Login.aspx");
             }
-            lblMensagem.Text = "Seja bem vindo" + Session["Usuario"] + " a Phobos Anomaly!!";
+            lblMensagem.Text = "Seja bem vindo " + Session["Usuario"] + " a Phobos Anomaly!!";
         }
     }
 }

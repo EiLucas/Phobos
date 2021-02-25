@@ -142,7 +142,7 @@ namespace Phobos.DAL
             catch (Exception ex)
             {
 
-                throw new Exception("Erro ao buscar" + ex.Message);
+                throw new Exception("Erro ao buscar!!" + ex.Message);
             }
             finally
             {
@@ -177,7 +177,7 @@ namespace Phobos.DAL
             catch (Exception ex)
             {
 
-                throw new Exception("Erro ao buscar!!" + ex.Message);
+                throw new Exception("Tente novamente!" + ex.Message);
             }
             finally
             {

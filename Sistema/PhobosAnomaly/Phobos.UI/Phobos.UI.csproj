@@ -77,12 +77,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Imagens\ICONE.ico" />
     <Content Include="Login.aspx" />
+    <Content Include="Pages\CadastraUsuario.aspx" />
+    <Content Include="Pages\ConsultaUsuario.aspx" />
     <Content Include="Pages\Content\bootstrap-grid.css" />
     <Content Include="Pages\Content\bootstrap-grid.min.css" />
     <Content Include="Pages\Content\bootstrap-reboot.css" />
     <Content Include="Pages\Content\bootstrap-reboot.min.css" />
     <Content Include="Pages\Content\bootstrap.css" />
     <Content Include="Pages\Content\bootstrap.min.css" />
+    <Content Include="Pages\EditarUsuario.aspx" />
     <Content Include="Pages\IndexAdm.aspx" />
     <Content Include="Pages\IndexUser.aspx" />
     <Content Include="Pages\Scripts\bootstrap.bundle.js" />
@@ -321,6 +324,27 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CadastraUsuario.aspx.cs">
+      <DependentUpon>CadastraUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CadastraUsuario.aspx.designer.cs">
+      <DependentUpon>CadastraUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ConsultaUsuario.aspx.cs">
+      <DependentUpon>ConsultaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ConsultaUsuario.aspx.designer.cs">
+      <DependentUpon>ConsultaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditarUsuario.aspx.cs">
+      <DependentUpon>EditarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditarUsuario.aspx.designer.cs">
+      <DependentUpon>EditarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\IndexAdm.aspx.cs">
       <DependentUpon>IndexAdm.aspx</DependentUpon>

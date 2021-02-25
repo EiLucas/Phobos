@@ -33,7 +33,7 @@
             <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" CssClass="btn btn-secondary" />
 
             <br />
-            <asp:Label ID="lblMesagem" runat="server" CssClass="text alert-light lead" />
+            <asp:Label ID="lblMesagem" runat="server" CssClass="text-light lead" />
 
         </div>
     </form>

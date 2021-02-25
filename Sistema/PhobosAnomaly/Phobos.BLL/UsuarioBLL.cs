@@ -53,7 +53,7 @@ namespace Phobos.BLL
             }
             else
             {
-                throw new Exception("Deu erro!! ");
+                throw new Exception("Tente novamente.");
             }
         }
     }

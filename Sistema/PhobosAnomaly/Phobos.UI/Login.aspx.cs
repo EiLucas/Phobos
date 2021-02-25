@@ -51,7 +51,7 @@ namespace Phobos.UI
             catch (Exception ex)
             {
 
-                lblMesagem.Text = "Usuario não cadastrado!" + ex.Message;
+                lblMesagem.Text = "Usuario não cadastrado, " + ex.Message;
             }
             
         }
