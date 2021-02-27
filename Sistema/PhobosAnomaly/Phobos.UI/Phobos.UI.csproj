@@ -85,7 +85,7 @@
     <Content Include="Pages\Content\bootstrap-reboot.min.css" />
     <Content Include="Pages\Content\bootstrap.css" />
     <Content Include="Pages\Content\bootstrap.min.css" />
-    <Content Include="Pages\EditarUsuario.aspx" />
+    <Content Include="Pages\EditaUsuario.aspx" />
     <Content Include="Pages\IndexAdm.aspx" />
     <Content Include="Pages\IndexUser.aspx" />
     <Content Include="Pages\Scripts\bootstrap.bundle.js" />
@@ -339,12 +339,12 @@
     <Compile Include="Pages\ConsultaUsuario.aspx.designer.cs">
       <DependentUpon>ConsultaUsuario.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\EditarUsuario.aspx.cs">
-      <DependentUpon>EditarUsuario.aspx</DependentUpon>
+    <Compile Include="Pages\EditaUsuario.aspx.cs">
+      <DependentUpon>EditaUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\EditarUsuario.aspx.designer.cs">
-      <DependentUpon>EditarUsuario.aspx</DependentUpon>
+    <Compile Include="Pages\EditaUsuario.aspx.designer.cs">
+      <DependentUpon>EditaUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\IndexAdm.aspx.cs">
       <DependentUpon>IndexAdm.aspx</DependentUpon>

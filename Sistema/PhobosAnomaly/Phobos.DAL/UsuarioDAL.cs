@@ -16,12 +16,13 @@ namespace Phobos.DAL
             try
             {
                 Conectar();
-                cmd = new SqlCommand("INSERT INTO Usuario (NomeUsuario, CpfUsuario, SenhaUsuario, DataNascUsuario, TipoUsuario) VALUES (@v1,@v2,@v3,@v4,@v5,)", conn);
+                cmd = new SqlCommand("INSERT INTO Usuario (NomeUsuario, CpfUsuario, SenhaUsuario, DataNascUsuario, TipoUsuario) VALUES (@v1,@v2,@v3,@v4,@v5)", conn);
                 cmd.Parameters.AddWithValue("@V1", objCad.NomeUsuario);
                 cmd.Parameters.AddWithValue("@V2", objCad.CpfUsuario);
                 cmd.Parameters.AddWithValue("@V3", objCad.SenhaUsuario);
                 cmd.Parameters.AddWithValue("@V4", objCad.DataNascUsuario);
                 cmd.Parameters.AddWithValue("@V5", objCad.DescricaoTipoUsuario);
+                cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
