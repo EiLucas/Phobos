@@ -15,21 +15,25 @@
             <asp:Button ID="btnPesquisar" runat="server" Text="Pesquisar" CssClass="btn btn-warning" OnClick="btnPesquisar_Click" />
             <br />
 
-            <h4 class="text-light lead">Nome</h4>
-            <asp:TextBox ID="txtNome" runat="server" Width="50%" CssClass="form-control"></asp:TextBox>
+            <asp:Panel ID="pnl2" runat="server">
 
-            <h4 class="text-light lead">CPF</h4>
-            <asp:TextBox ID="txtCpf" runat="server" Width="50%" CssClass="form-control cpf"></asp:TextBox>
+                <h4 class="text-light lead">Nome</h4>
+                <asp:TextBox ID="txtNome" runat="server" Width="50%" CssClass="form-control"></asp:TextBox>
 
-            <h4 class="text-light lead">Senha</h4>
-            <asp:TextBox ID="txtSenha" runat="server" Width="50%" CssClass="form-control" MaxLength="6"></asp:TextBox>
+                <h4 class="text-light lead">CPF</h4>
+                <asp:TextBox ID="txtCpf" runat="server" Width="50%" CssClass="form-control cpf"></asp:TextBox>
 
-            <h4 class="text-light lead">Data</h4>
-            <asp:TextBox ID="txtData" runat="server" Width="50%" CssClass="form-control"></asp:TextBox>
+                <h4 class="text-light lead">Senha</h4>
+                <asp:TextBox ID="txtSenha" runat="server" Width="50%" CssClass="form-control" MaxLength="6"></asp:TextBox>
 
-            <asp:Label ID="lblTituloSumir" runat="server" CssClass="text-light lead" Text="Tipo Usuário"></asp:Label>
-            <asp:TextBox ID="txtTipoUsuario" runat="server" Width="50%" CssClass="form-control" MaxLength="13"></asp:TextBox>
-            <br />
+                <h4 class="text-light lead">Data</h4>
+                <asp:TextBox ID="txtData" runat="server" Width="50%" CssClass="form-control"></asp:TextBox>
+
+                <asp:Label ID="lblTituloSumir" runat="server" CssClass="text-light lead" Text="Tipo Usuário"></asp:Label>
+                <asp:TextBox ID="txtTipoUsuario" runat="server" Width="50%" CssClass="form-control" MaxLength="13"></asp:TextBox>
+                <br />
+
+            </asp:Panel>
 
             <%--Tipo Usuário--%>
             <asp:Panel ID="pnl1" runat="server">
@@ -41,8 +45,8 @@
             </asp:Panel>
 
             <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CssClass="btn btn-danger" OnClick="btnExcluir_Click" OnClientClick="if (!confirm('Deseja realmente excluir este registro?')) return false" />
-            <asp:Button ID="btnEditar" runat="server" Text="Editar" CssClass="btn btn-info" />
-            <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar" CssClass="btn btn-info" />
+            <asp:Button ID="btnEditar" runat="server" Text="Editar" CssClass="btn btn-info" OnClick="btnEditar_Click" />
+            <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar" CssClass="btn btn-info" OnClick="btnConfirmar_Click" />
 
             <br />
             <asp:Label ID="lblMessagem" runat="server" CssClass="text-light font-weight-light" />

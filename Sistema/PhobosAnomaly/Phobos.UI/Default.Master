@@ -48,7 +48,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Consulta</a>
+                        <a class="nav-link" href="ConsultaUsuario.aspx">Consulta</a>
                     </li>
                 </ul>
             </nav>

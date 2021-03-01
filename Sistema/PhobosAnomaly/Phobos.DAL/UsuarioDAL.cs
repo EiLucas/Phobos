@@ -76,13 +76,13 @@ namespace Phobos.DAL
             try
             {
                 Conectar();
-                cmd = new SqlCommand("UPDATE Usuario SET NomeUsuario=@v1, CpfUsuario=@v2, SenhaUsuario=@v3, DataNascUsuario=@v4, TipoUsuario=@v5, WHERE IdUsuario=@v6", conn);
+                cmd = new SqlCommand("UPDATE Usuario SET NomeUsuario=@v1, CpfUsuario=@v2, SenhaUsuario=@v3, DataNascUsuario=@v4, TipoUsuario=@v5 WHERE IdUsuario=@v6", conn);
                 cmd.Parameters.AddWithValue("@V1", objEdita.NomeUsuario);
                 cmd.Parameters.AddWithValue("@V2", objEdita.CpfUsuario);
                 cmd.Parameters.AddWithValue("@V3", objEdita.SenhaUsuario);
                 cmd.Parameters.AddWithValue("@V4", objEdita.DataNascUsuario);
                 cmd.Parameters.AddWithValue("@V5", objEdita.DescricaoTipoUsuario);
-                cmd.Parameters.AddWithValue("@V1", objEdita.IdUsuario);
+                cmd.Parameters.AddWithValue("@V6", objEdita.IdUsuario);
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -125,7 +125,7 @@ namespace Phobos.DAL
                 Conectar();
                 cmd = new SqlCommand("SELECT IdUsuario, NomeUsuario, CpfUsuario, SenhaUsuario, DataNascUsuario, DescricaoTipoUsuario FROM Usuario JOIN TipoUsuario ON TipoUsuario = IdTipoUsuario WHERE IdUsuario = @v6", conn);
                 cmd.Parameters.AddWithValue("@v6", objSeleciona);
-                cmd.ExecuteNonQuery();
+                dr = cmd.ExecuteReader();
 
                 UsuarioDTO obj = null;//Ponteiro
                 if (dr.Read())

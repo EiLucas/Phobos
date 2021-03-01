@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Phobos.BLL;
 
 namespace Phobos.UI.Pages
 {
@@ -11,7 +12,9 @@ namespace Phobos.UI.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            UsuarioBLL objModelo = new UsuarioBLL();
+            dgv1.DataSource = objModelo.ListarUsuario();//Preencher o objeto
+            dgv1.DataBind();//Imprimir na tela
         }
     }
 }

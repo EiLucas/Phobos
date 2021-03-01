@@ -13,7 +13,9 @@ namespace Phobos.UI.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            pnl1.Visible = false;
+            pnl2.Enabled = false;
+            btnConfirmar.Visible = false;
         }
         protected void Limpar()
         {
@@ -58,6 +60,29 @@ namespace Phobos.UI.Pages
             objExclirBLL.ExcluirUsuario(codigo);
             Limpar();
             lblMessagem.Text = "Registro excluído com sucesso!";
+        }
+
+        protected void btnEditar_Click(object sender, EventArgs e)
+        {
+            pnl1.Visible = true;
+            pnl2.Enabled = true;
+            lblTituloSumir.Visible = false;
+            txtTipoUsuario.Visible = false;
+            btnConfirmar.Visible = true;
+        }
+
+        protected void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            UsuarioDTO objModelo = new UsuarioDTO();//modelo
+            UsuarioBLL objEditaBLL = new UsuarioBLL();//metodo
+            objModelo.NomeUsuario = txtNome.Text;
+            objModelo.CpfUsuario = txtCpf.Text;
+            objModelo.SenhaUsuario = txtSenha.Text;
+            objModelo.DataNascUsuario = txtData.Text;
+            objModelo.DescricaoTipoUsuario = rbl1.SelectedValue;
+            objModelo.IdUsuario = Convert.ToInt32(txtIdUsuario.Text);
+            objEditaBLL.EditarUsuario(objModelo);
+            lblMessagem.Text = "Usuário atualizado com secesso!";
         }
     }
 }
